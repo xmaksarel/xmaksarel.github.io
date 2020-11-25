@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<timetable>
+<day dayOfWeek="Monday">
+ <lesson type="practical">
+      <timeFrom>08.00</timeFrom>
+      <timeTo>09.30</timeTo>
+      <subject>Deutsch</subject>
+      <teacher>Borisova</teacher>
+      <room>216</room>
+    </lesson>
+    <lesson type="lecture">
+      <timeFrom>09.40</timeFrom>
+      <timeTo>11.10</timeTo>
+      <subject>SAP Administration</subject>
+      <teacher>Egorov</teacher>
+      <room>384</room>
+    </lesson>
+    <lesson  type="practical">
+      <timeFrom>11.20</timeFrom>
+      <timeTo>12.50</timeTo>
+      <subject>SAP Administration</subject>
+      <teacher>Petrov</teacher>
+      <room>384</room>
+    </lesson>
+</day>
+</timetable>
