@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="ttable.xsl"?>
+<timetable>
+    <lesson>
+      <timeFrom>09.30</timeFrom>
+      <timeTo>11.00</timeTo>
+      <subject>Deutsch</subject>
+      <teacher>Borisova</teacher>
+    </lesson>
+    <lesson>
+      <timeFrom>11.10</timeFrom>
+      <timeTo>12.20</timeTo>
+      <subject>SAP Administration</subject>
+      <teacher>Petrov</teacher>
+    </lesson>
+    <lesson>
+      <timeFrom>12.40</timeFrom>
+      <timeTo>14.00</timeTo>
+      <subject>SAP Administration</subject>
+      <teacher>Ivanov</teacher>
+    </lesson>
+    <lesson>
+      <timeFrom>14.00</timeFrom>
+      <timeTo>15.20</timeTo>
+      <subject>Wen-technology</subject>
+      <teacher>Loktev</teacher>
+    </lesson>
+</timetable>
