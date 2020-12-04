@@ -22,7 +22,7 @@
               <td>Student</td>
               <td>Grade</td>
             </tr>
-            <xsl:for-each select="timetable/lesson">
+            <xsl:for-each select="gradeRecord">
               <tr>
                 <td>
                   <xsl:value-of select="id"/>
