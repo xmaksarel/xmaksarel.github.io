@@ -25,7 +25,7 @@
             <xsl:for-each select="gradeReport/gradeList/gradeRecord">
               <tr>
                 <td>
-                  <xsl:value-of select="@id"/>
+                  <xsl:value-of select="id"/>
                 </td>
                 <td>
                   <xsl:value-of select="student"/>
