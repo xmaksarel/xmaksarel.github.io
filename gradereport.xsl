@@ -7,13 +7,13 @@
     <html>
       <body>
         <h2>
-          <xsl:value-of select="date"/>
+          <xsl:value-of select="gradeReport/date"/>
         </h2>
         <h1>
-          <xsl:value-of select="subject"/>
+          <xsl:value-of select="gradeReport/subject"/>
         </h1>
         <h2>
-          <xsl:value-of select="examiner"/>
+          <xsl:value-of select="gradeReport/examiner"/>
         </h2>
         <table>
           <tbody>
@@ -22,7 +22,7 @@
               <td>Student</td>
               <td>Grade</td>
             </tr>
-            <xsl:for-each select="gradeRecord">
+            <xsl:for-each select="gradeReport/gradeList/gradeRecord">
               <tr>
                 <td>
                   <xsl:value-of select="id"/>
