@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+  Maxim Tsov
+  09.04.2020
+  Internet Technologies
+  Lab 10 Fullstack Cafe
+  Original source: https://courses.cs.washington.edu/courses/cse154
+-->
+<html lang="en">
+	<head>
+    <meta charset="utf-8">
+		<title>Mowgli's Caf&eacute;</title>
+    <script src="mowglis.js"></script>
+		<link href="mowglis.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+    <header>
+      <h1>Mowgli's Caf&eacute;</h1>
+      <p class="subtitle">
+        Fresh coffee and breakfast, brought to your door!
+      </p>
+    </header>
+    <hr />
+    <main>
+      <div id="order-results"></div>
+		  <h2>Menu</h2>
+      <div id="menu-container"></div>
+      <fieldset id="payment-info">
+		    <legend>Payment</legend>
+		    <p>
+          Your total (before tip and 8% tax) is: $<span id="cost">0.00</span>
+        </p>
+        <div>
+          <p>Tip:</p>
+          <p>$&nbsp;<input id="tip" required type="number" /></p>
+        </div>
+        <div>
+          <p>Street Address:</p>
+          <p><input id="address" type="text" /></p>
+        </div>
+        <div>
+          <p>City:</p>
+          <p><input id="city" type="text" /></p>
+        </div>
+        <div>
+          <p>State:</p>
+          <p><input id="state" type="text" maxlength=2 /></p>
+        </div>
+      </fieldset>
+      <h2>Final total: $<span id="totalcost">0.00</span></h2>
+		  <div>
+		  	<input id="submit" type="submit" value="Submit Your Order!" />
+		  </div>
+    </main>
+	</body>
+</html>

@@ -1,0 +1,111 @@
+/**
+ * Maxim Tsov
+ * 09.04.2020
+ * Internet Technologies
+ * Lab 10 Fullstack Cafe Part 1 (Student Starter Code)
+ *
+ * Original source: https://courses.cs.washington.edu/courses/cse154
+ */
+
+html {
+  background-image: url("background.jpg");
+}
+
+body {
+  border-radius: 5px;
+  box-shadow: 3px 5px 5px #000;
+  font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+  width: 50%;
+  margin: 30px auto;
+  background-color: #FFF;
+  padding: 20px;
+}
+
+h1, .subtitle {
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-style: italic;
+}
+
+fieldset {
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.col-head, .item, #payment-info div {
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  font-size: 14pt;
+  margin: 5px auto;
+}
+
+.item label, .col-head p:first-child, #payment-info div p:first-child {
+  flex-grow: 1;
+}
+
+.col-head {
+  font-weight: bold;
+}
+
+.col-head p {
+  margin-bottom: 0;
+  font-size: 14pt;
+}
+
+fieldset label {
+  text-align: left;
+  display: block; 
+}
+
+fieldset legend {
+  font-weight: bold;
+  font-size: 16pt;
+  text-transform: uppercase;
+}
+
+fieldset input[type="radio"] {
+  margin: 3px 10px 0px 5px;
+}
+
+#order-form {
+  margin: auto 50px;
+}
+
+#order-form h2 {
+  text-align: center;
+}
+
+#submit {
+  margin: 10px auto;
+  display: block;
+  width: 200px;
+  padding: 6px;
+  border-radius: 6px;
+  background-color: #896652;
+  color: #fff;
+  font-size: 14pt;
+}
+
+.hidden {
+  display: none;
+}
+
+#payment-info {
+  margin: 15px auto;
+  width: 65%;
+}
+
+input[type="text"], input[type="number"] {
+  padding: 3px;
+}

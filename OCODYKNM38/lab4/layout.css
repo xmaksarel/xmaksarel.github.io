@@ -1,0 +1,51 @@
+.part {
+  border: 4px solid #C2E9E9;
+  border-radius: 15px;
+  background-color: #e8fbfb;
+  padding: 5px;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+#page {
+  border: 10px solid white;
+  background-color: white;
+}
+
+.date {
+  border-bottom: 2px dashed blue;
+}
+
+#subtitle {
+  font-size: 14px;
+}
+
+#title {
+  background-color: #A8F0F0;
+  text-align: right;
+}
+
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-image: url(./images/background.gif);
+}
+
+.part img {
+  float: right;
+}
+
+.spacer {
+  clear: right;
+}
+
+#firstColumn {
+  float: left;
+  background-color: #99e0e0;
+  border: 5px #009097 solid;
+}
+
+#secondColumn{
+    float: left;
+    overflow: hidden;
+}

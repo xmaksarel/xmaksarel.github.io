@@ -1,0 +1,90 @@
+/*
+CSE 154
+Styles for Trivia PHP Web Service Lab
+*/
+
+body {
+	text-align: center;
+	background-color: #e6fccd;
+}
+
+body, select, button {
+  font-family: "Century Gothic", Helvetica, sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: auto auto;
+}
+
+#categories, #question-area {
+	margin: auto;
+	margin-top: 10px;
+  padding: 5px 10px;
+	width: 50%;
+}
+
+#categories, #question-area, textarea, input[type='text'] {
+	border: solid 3px #0aa;
+	background-color: #fff;
+}
+
+#button-container {
+  display: inline;
+}
+
+select {
+  padding: 3px;
+  background-color: #fff;
+}
+
+#new-trivia-view {
+  text-align: left;
+}
+
+#new-trivia-view header {
+  text-align: center;
+}
+
+button {
+	border: solid 2px #0aa;
+	margin: 20px auto;
+  padding: 6px;
+  text-align: center;
+  width: 140px;
+}
+
+section {
+  width: 60%;
+  margin: auto auto;
+}
+
+textarea, input[type='text'] {
+  width: 100%;
+  padding: 5px;
+}
+
+input[type='text'] {
+  font-family: monospace;
+}
+
+ul {
+  text-align: left;
+}
+
+li {
+  list-style: none;
+}
+
+li:hover {
+  color: #0aa;
+  cursor: pointer;
+}
+
+.selected-category {
+  color: #0aa;
+}
+
+.hidden {
+  display: none;
+}

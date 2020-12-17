@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+  Internet Technologies | SP 2020
+  Lab 8
+  Original Author: Melissa Hovik 2018
+
+  Starter HTML for Dice Roller Exercise
+  -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dice Roller!</title>
+    <link rel="stylesheet" href="dice.css" />
+    <script src="dice.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Dice Roller!</h1>
+    </header>
+    <main>
+      <fieldset>
+        <legend>Game Options</legend>
+        <p>
+          <label>Dice Type: </label>
+          <select id="dice-sides">
+            <option selected value="6">6-Sided</option>
+            <option value="8">8-Sided</option>
+            <option value="10">10-Sided</option>
+          </select>
+        </p>
+        <p>
+          <label>Dice Count: </label>
+          <input id="count" type="number" />
+        </p>
+      </fieldset>
+
+      <button id="roll">Roll!</button>
+      <button id="stop" disabled>Stop Roll!</button>
+
+      <div id="dice-area" class="hidden"></div>
+
+      <p id="results" class="hidden">
+        Dice Roll Sum: <span id="roll-sum"></span>
+      </p>
+    </main>
+  </body>
+</html>

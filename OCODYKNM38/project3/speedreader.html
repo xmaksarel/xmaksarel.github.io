@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+    Name: Maxim Tsov
+    Date: 14.03.20
+    Homework 3 (SpeedReader)
+-->
+
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8" />
+  <title>
+    Maxim Tsov Homework 3 (SpeedReader)
+  </title>
+  <link rel="stylesheet" href="speedreader.css" />
+  <script src="speedreader.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>SpeedReader</h1>
+  </header>
+  <main>
+    <div id="output" class="medium"></div>
+    <div class="controls">
+      <div>
+        <p>Play Controls:</p>
+        <hr />
+        <p>
+          <button id="buttonStart">Start</button>
+          <button id="buttonStop" disabled>Stop</button>
+        </p>
+      </div>
+      <div>
+        <p>Speed:</p>
+        <hr />
+        <p>
+          <select id="speed">
+            <option value="1200">50 wpm</option>
+            <option value="200">300 wpm</option>
+            <option selected value="171">350 wpm</option>
+            <option value="150">400 wpm</option>
+            <option value="133">450 wpm</option>
+            <option value="120">500 wpm</option>
+          </select>
+        </p>
+      </div>
+      <div>
+        <p>Size:</p>
+        <hr />
+        <p>
+          <input checked type="radio" name="size" value="medium" />
+          <label>Medium</label>
+          <input type="radio" name="size" value="big" />
+          <label>Big</label>
+          <input type="radio" name="size" value="bigger" />
+          <label>Bigger</label>
+        </p>
+      </div>
+    </div>
+    <div class="controls">
+      <div>
+        <p>InputText:</p>
+        <hr />
+        <p>
+          <textarea id="input" cols="80"
+            rows="10"></textarea>
+        </p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <a href="http://validator.w3.org" target="_blank"><img width="88" height="31"
+        src="https://resources.bilimedtech.com/static/w3c-html-blue.png" alt="Valid HTML5" />
+    </a>
+    <a href="https://jigsaw.w3.org/css-validator/" target="_blank"><img width="88" height="31"
+        src="https://resources.bilimedtech.com/static/w3c-css-blue.png" alt="Valid CSS" />
+    </a>
+    <a href="http://www.jslint.com/" target="_blank"><img width="88" height="31"
+        src="https://resources.bilimedtech.com/static/w3c-js-blue.png" alt="Valid HTML5" />
+    </a>
+  </footer>
+</body>
+
+</html>

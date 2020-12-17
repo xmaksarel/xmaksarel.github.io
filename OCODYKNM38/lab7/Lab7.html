@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Lab 7: Nonograms!</title>
+  <link href="nonograms.css" type="text/css" rel="stylesheet">
+  <script src="nonograms.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Nonogram Puzzle!</h1>
+  </header>
+  <main>
+    <div id="puzzle" class="ten">
+      <div class"half">
+        <div id="empty-square"></div>
+        <div id="top-nums">
+          <div class="col">
+            <div class="col-num-box">1</div>
+          </div>
+          <div class="col">
+            <div class="col-num-box">4</div>
+            <div class="col-num-box">2</div>
+          </div>
+          <div class="col">
+            <div class="col-num-box">1</div>
+            <div class="col-num-box">2</div>
+          </div>
+          <div class="col">
+            <div class="col-num-box">6</div>
+            <div class="col-num-box">1</div>
+          </div>
+          <div class="col thick-right-border">
+            <div class="col-num-box">1</div>
+            <div class="col-num-box">2</div>
+            <div class="col-num-box">1</div>
+          </div>
+          <div class="col">
+            <div class="col-num-box">5</div>
+            <div class="col-num-box">1</div>
+            <div class="col-num-box">1</div>
+          </div>
+          <div class="col">
+            <div class="col-num-box">1</div>
+            <div class="col-num-box">2</div>
+            <div class="col-num-box">1</div>
+            <div class="col-num-box">1</div>
+          </div>
+          <div class="col">
+            <div class="col-num-box">3</div>
+            <div class="col-num-box">1</div>
+            <div class="col-num-box">2</div>
+          </div>
+          <div class="col">
+            <div class="col-num-box">1</div>
+            <div class="col-num-box">5</div>
+          </div>
+          <div class="col thick-right-border">
+            <div class="col-num-box">2</div>
+          </div>
+        </div>
+      </div>
+      <div class="half">
+        <div id="left-nums">
+          <div class="left-row thick-top-border">
+            <div class="row-num-box">6</div>
+          </div>
+          <div class="left-row">
+            <div class="row-num-box">1</div>
+            <div class="row-num-box">1</div>
+            <div class="row-num-box">1</div>
+            <div class="row-num-box">1</div>
+          </div>
+          <div class="left-row">
+            <div class="row-num-box">2</div>
+            <div class="row-num-box">1</div>
+            <div class="row-num-box">2</div>
+          </div>
+          <div class="left-row">
+            <div class="row-num-box">1</div>
+            <div class="row-num-box">2</div>
+            <div class="row-num-box">1</div>
+            <div class="row-num-box">1</div>
+          </div>
+          <div class="left-row horizontal-divider">
+            <div class="row-num-box">4</div>
+            <div class="row-num-box">1</div>
+            <div class="row-num-box">1</div>
+          </div>
+          <div class="left-row">
+            <div class="row-num-box">1</div>
+            <div class="row-num-box">2</div>
+            <div class="row-num-box">1</div>
+          </div>
+          <div class="left-row">
+            <div class="row-num-box">8</div>
+          </div>
+          <div class="left-row">
+            <div class="row-num-box">1</div>
+            <div class="row-num-box">1</div>
+          </div>
+          <div class="left-row">
+            <div class="row-num-box">4</div>
+            <div class="row-num-box">1</div>
+          </div>
+          <div class="left-row horizontal-divider">
+            <div class="row-num-box">2</div>
+          </div>
+        </div>
+        <div id="grid">
+          <div class="box clear thick-top-border vertical-divider"></div>
+          <div class="box thick-top-border"></div>
+          <div class="box thick-top-border"></div>
+          <div class="box thick-top-border"></div>
+          <div class="box thick-top-border"></div>
+          <div class="box thick-top-border vertical-divider"></div>
+          <div class="box thick-top-border"></div>
+          <div class="box thick-top-border"></div>
+          <div class="box thick-top-border"></div>
+          <div class="box thick-top-border"></div>
+          <div class="box clear vertical-divider"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box vertical-divider"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box clear vertical-divider"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box vertical-divider"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box clear vertical-divider"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box vertical-divider"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box clear horizontal-divider vertical-divider"></div>
+          <div class="box horizontal-divider"></div>
+          <div class="box horizontal-divider"></div>
+          <div class="box horizontal-divider"></div>
+          <div class="box horizontal-divider"></div>
+          <div class="box vertical-divider horizontal-divider"></div>
+          <div class="box horizontal-divider"></div>
+          <div class="box horizontal-divider"></div>
+          <div class="box horizontal-divider"></div>
+          <div class="box horizontal-divider"></div>
+          <div class="box clear vertical-divider"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box vertical-divider"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box clear vertical-divider"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box vertical-divider"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box clear vertical-divider"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box vertical-divider"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box clear vertical-divider"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box vertical-divider"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box clear horizontal-divider vertical-divider"></div>
+          <div class="box horizontal-divider"></div>
+          <div class="box horizontal-divider"></div>
+          <div class="box horizontal-divider"></div>
+          <div class="box horizontal-divider"></div>
+          <div class="box vertical-divider horizontal-divider"></div>
+          <div class="box horizontal-divider"></div>
+          <div class="box horizontal-divider"></div>
+          <div class="box horizontal-divider"></div>
+          <div class="box horizontal-divider"></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <button id="clear">Clear Puzzle</button>
+    </div>
+  </main>
+</body>
+
+</html>

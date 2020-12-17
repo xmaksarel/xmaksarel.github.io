@@ -1,0 +1,52 @@
+/*
+Name: Maxim Tsov
+Date: 10.02.20
+Homework Assignment 1: Recipe
+*/
+h1,h2{
+    color: #A4A400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 18pt;
+}
+
+body{
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    color: #A4A400 ;
+}
+
+.tablespoons, #teaspoons{
+    text-decoration: underline;
+}
+
+#cake{
+    text-decoration: line-through;
+}
+
+footer{
+    font-family: monospace;
+}
+
+.comments{
+    font-style: italic;
+    background-color: #FFFFA8;
+}
+
+body{
+    background-image: url(./images/background.gif);
+}

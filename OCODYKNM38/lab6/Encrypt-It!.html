@@ -1,0 +1,44 @@
+<!--
+Name: Maxim Tsov
+LAB 6: JS DOM AND EVENTS - ENCRYPT-IT!
+-->
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <title>Encrypt-It!</title>
+    <script src="encrypt-it.js"></script>
+    <link rel="stylesheet" href="encrypt-it.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Encrypt-It!</h1>
+    </header>
+    <main>
+      <h2>Translate any text message into a super-secret cipher!</h2>
+      <fieldset>
+        <legend>Text to Encrypt</legend>
+        <textarea rows="10" cols="60" id="textArea"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Encrypt Options</legend>
+        <strong>Cipher Type:</strong>
+        <select id="cipherType">
+          <option value="shiftCipher">Shift Cipher</option>
+          <option value="randomized">Randomized</option>
+        </select>
+        <br />
+        <strong>Font Size: </strong>
+        <input checked type="radio" name="fontSize" value="12pt" />12pt
+        <input type="radio" name="fontSize" value="24pt" />24pt
+        <br />
+        <strong>All Caps: </strong>
+        <input type="checkbox" id="checkboxAllCaps" />
+        <br />
+        <button id="buttonStart">Encrypt-It!</button>
+        <button id="buttonReset">Reset</button>
+      </fieldset>
+      <p id="output"></p>
+    </main>
+  </body>
+</html>

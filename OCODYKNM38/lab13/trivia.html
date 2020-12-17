@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+  CSE 154
+  Starting HTML for the Trivia PHP Web Service Section.
+-->
+<html>
+	<head>
+		<title>Trivia!</title>
+		<link rel="stylesheet" type="text/css" href="trivia.css">
+    <script src="trivia.js"></script>
+	</head>
+	<body>
+    <header>
+		  <h1>Trivia-It!</h1>
+      <div id="button-container">
+		    <button id="view-all">List Categories</button>
+		    <button id="add-trivia">Add Trivia</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hidden" id="category-view">
+        <header>
+          <h2>Categories:</h2>
+        </header>
+		    <ul id="categories"></ul>
+      </section>
+
+      <section class="hidden" id="new-trivia-view">
+        <header>
+          <h2>New Trivia Entry:</h2>
+        </header>
+        <p>
+          Category: <select id="category-dropdown"></select>
+        </p>
+        <p>New Question:</p> 
+        <textarea id="new-q" rows=8 placeholder="Add your new question here"></textarea>
+        <p>Answer:</p>
+        <p>
+        <input type="text" placeholder="Add your answer here" id="new-a">
+        </p>
+        <button id="submit-trivia">Submit Entry!</button>
+      </section>
+
+		  <button class="hidden" id="next">New Question</button>
+		  <div class="hidden" id="question-area">
+        <p id="current-question"></p>
+        <p id="current-answer"></p>
+      </div>
+      <p id="result"></p>
+    </main>
+	</body>
+</html>

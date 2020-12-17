@@ -1,0 +1,77 @@
+/*
+    Name: Maxim Tsov
+    Date: 14.03.20
+    Homework 3 (SpeedReader)
+ */
+body {
+  background-color: #eaf6f6;
+  font-size: 12pt;
+  font-family: serif;
+  text-align: center;
+}
+
+#output {
+  width: 80%;
+  height: 100px;
+  font-weight: bold;
+  font-family: monospace;
+  line-height: 100px;
+  text-align: center;
+  border: solid 2px #8ebebe;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+.controls {
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+#titles {
+  font-weight: bold;
+  text-align: left;
+  border-bottom: solid 1px #8ebebe;
+  width: 100%;
+  padding: 2px;
+}
+
+button {
+  background-color: #ffffff;
+  border: solid grey 1px;
+  width: 70px;
+}
+
+textarea {
+  border: solid gray 1px;
+  background-color: #ffffff;
+}
+
+hr {
+  margin-top: auto;
+  border: 0.5px;
+  border-style: solid;
+  border-color: #8ebebe;
+}
+
+p {
+  margin: 2px;
+}
+
+footer {
+  text-align: left;
+}
+
+.medium{
+font-size: 36pt;
+}
+
+.big{
+  font-size: 48pt;
+}
+
+.bigger{
+  font-size: 60pt;
+}
